@@ -34,8 +34,8 @@ function HomepageHeader() {
 export default function Home() {
     const {siteConfig} = useDocusaurusContext();
     const docs = [
-        // { uri: "https://www.pharmacieveau.fr/files/boutique/produits/doc/367-doliprane1000cpsec.pdf" }, // Local File
-        { uri: require("./test.pdf")}
+        { uri: "https://www.pharmacieveau.fr/files/boutique/produits/doc/367-doliprane1000cpsec.pdf" }, // Local File
+        //{ uri: require("./test.pdf")} //documentURI.startsWith is not a function
     ];
   return (
     <Layout

@@ -1,0 +1,15 @@
+---
+sidebar_position: 1
+---
+
+# Test DocViewer
+
+import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
+
+<DocViewer documents={require("./test.pdf")} pluginRenderers={DocViewerRenderers} />
+
+
+
+import docu1 from '!!raw-loader!./test.pdf';
+
+<DocViewer documents={docu1} pluginRenderers={DocViewerRenderers} />
